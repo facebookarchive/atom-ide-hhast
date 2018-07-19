@@ -1,8 +1,8 @@
 # atom-ide-hhast
 
 [HHAST](https://github.com/hhvm/hhast) provides a linter for Hack code; this
-package provides IDE integration for [https://ide.atom.io](Atom IDE) and
-[https://nuclide.io](https://nuclide.io).
+package provides IDE integration for [Atom IDE](https://ide.atom.io) and
+[Nuclide](https://nuclide.io).
 
 This consists of error reporting and providing fix actions for some linters.
 
