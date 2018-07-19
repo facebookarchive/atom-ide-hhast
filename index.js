@@ -67,7 +67,6 @@ class HHASTLanguageClient extends AutoLanguageClient {
         'lsp',
         '--from',
         'atom-ide-hhast',
-        ...atom.config.get('atom-ide-hhast.arguments')
       ],
       {
         cwd: workspace
@@ -78,14 +77,6 @@ class HHASTLanguageClient extends AutoLanguageClient {
 
 module.exports = new HHASTLanguageClient();
 module.exports.config = {
-  arguments: {
-    type: 'array',
-    items: {
-      type: 'string',
-    },
-    'default': [],
-    'description': 'Additional arguments to pass to hhast-lint'
-  },
   lintMode: {
     type: 'string',
     enum: ['whole-project', 'open-files'],
