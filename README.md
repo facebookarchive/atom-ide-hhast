@@ -23,7 +23,15 @@ No build process is required; pure ES6 is used, which Atom natively understands
 
 ## Installing `atom-ide-hhast`
 
-Install the `ide-hhast` package through the Atom UI, or run `apm install ide-hhast`
+Atom IDE
+--------
+
+Install the `ide-hhast` and `atom-ide-ui` packages through the Atom UI, or run `apm install ide-hhast atom-ide-ui`.
+
+Nuclide
+-------
+
+Install the `ide-hhast` package through the Atom UI, or run `apm install ide-hhast`.
 
 ## How `atom-ide-hhast` works
 
