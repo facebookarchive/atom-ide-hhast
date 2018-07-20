@@ -1,5 +1,5 @@
 {
-   "repository": "https://github.com/hhvm/atom-ide-hhast/",
+   "repository": "https://github.com/hhvm/atom-ide-hhast",
    "enhancedScopes": [
       "text.html.hack"
    ],
